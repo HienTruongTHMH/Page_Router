@@ -7,7 +7,7 @@ import { getSortedPostsData } from '../lib/post';
 // Bây giờ tạo 1 Static - Generation: 
 //  Giành cho các web tĩnh, giống như việc bạn có sẵn một page đang chờ sẵn, và chỉ chờ bạn click để hiện ra.
 // Không bao giờ có ở client. 
-// Đây là hàm để lấy các
+// Đây là hàm để lấy các dữ liệu và render cho web tĩnh.
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
   return { 
