@@ -32,7 +32,7 @@ export default function Layout({ children, home }){ // { children } l√† tham s·ª
                         <Image
                             priority
                             src="/images/profile.jpg"
-                            className={utilStyles.borderCricle}
+                            className={utilStyles.borderCircle}
                             height={144}
                             width={144}
                             alt='This is my avatar'
@@ -46,7 +46,7 @@ export default function Layout({ children, home }){ // { children } l√† tham s·ª
                             <Image 
                                 priority
                                 src="/images/profile.jpg"
-                                className={utilStyles.borderCricle}
+                                className={utilStyles.borderCircle}
                                 height={108}
                                 width={108}
                                 alt='Link for avatar'
@@ -61,9 +61,9 @@ export default function Layout({ children, home }){ // { children } l√† tham s·ª
                 ) }
             </header>
             <main>{children}</main>
-            <div className={styles.backToHome}>
+            {/* <div className={styles.backToHome}>
                 <Link href='/'>Back to home</Link>
-            </div>
+            </div> */}
         </div>
     );
 }
